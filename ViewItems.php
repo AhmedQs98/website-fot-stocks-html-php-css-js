@@ -6,7 +6,7 @@
         table{
             border-collapse: collapse;
             width: 100%;
-            color: #973030;
+            color: #dee2ff;
             font-family: serif;
             font-size: 30px;
             text-align: left;
@@ -33,7 +33,7 @@
         }
     </style>
 </head>
-<body>
+<body background ="my_background.png">
     <form class="back" method="get" action="main.html">
                 <button type="submit">Back</button>
             </form>

@@ -18,7 +18,7 @@
         }
         else if($conn->query($sql) == TRUE){
             echo "<script>alert('New record inserted');";
-            echo 'window.location= "AddItem.html"';
+            echo 'window.location= "main.html"';
             echo "</script>";
         }  
         else

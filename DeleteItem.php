@@ -25,16 +25,9 @@
             echo "<script>alert('error');";
             echo 'window.location= "DeleteItem.html"';
             echo "</script>";
-         
             
         $conn->close();
      
-        else
-        {
-            echo "<script>alert('One of the fields most be filled');";
-            echo 'window.location= "DeleteItem.html"';
-            echo "</script>";
-            die();
-        }
+        
     
 ?>
